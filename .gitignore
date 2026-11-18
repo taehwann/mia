@@ -1,0 +1,56 @@
+# Local research files
+/AGENTS.md
+*.html
+
+# CMake and Ninja
+/build/
+/out/build/
+/cmake-build-*/
+/CMakeUserPresets.json
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/install_manifest.txt
+/compile_commands.json
+/build.ninja
+/.ninja_deps
+/.ninja_log
+
+# Visual Studio and MSVC build outputs
+.vs/
+*.vcxproj.user
+*.suo
+*.tlog
+*.idb
+*.ipdb
+*.iobj
+*.pdb
+*.ilk
+*.pch
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.res
+
+# Generated CUDA, Vulkan shader, and profiler artifacts
+*.ptx
+*.cubin
+*.fatbin
+*.sass
+*.spv
+*.spvasm
+*.ncu-rep
+
+# Preserve GPU artifacts deliberately collected as research evidence
+!/results/**/*.ptx
+!/results/**/*.cubin
+!/results/**/*.fatbin
+!/results/**/*.sass
+!/results/**/*.spv
+!/results/**/*.spvasm
+!/results/**/*.ncu-rep
